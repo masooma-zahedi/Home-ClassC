@@ -1,13 +1,12 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import MainLayout from './layouts/MainLayout';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hi Masooma</h1>
-      </header>
-    </div>
+    <>
+        <MainLayout/>
+    </>
   );
 }
 
