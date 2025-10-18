@@ -437,7 +437,8 @@ const SentenceObject = () => {
                   style={{ backgroundColor: "rgba(135, 187, 239, 0.7)" }}
                 >
                   {/* sentence را با هایلایت رندر می‌کنیم */}
-                  {highlightText(slide.sentence)}
+                  {/* {highlightText(slide.sentence)} */}
+                  {slide.sentence}
                 </h1>
               </Carousel.Item>
             ))}
@@ -455,7 +456,8 @@ const SentenceObject = () => {
                   >
                     <h3 style={{ margin: 0 }}>
                       {/* واژه را هم با هایلایت رندر می‌کنیم */}
-                      {highlightText(word.text)}
+                      {/* {highlightText(word.text)} */}
+                      {word.text}
                     </h3>
                   </Button>
                 ))}
