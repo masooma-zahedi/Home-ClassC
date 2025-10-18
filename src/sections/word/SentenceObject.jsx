@@ -353,7 +353,7 @@ const SentenceObject = () => {
       </Row>
 
       {/* input برای تایپ حرف و گزینه حذفِ حرکات */}
-      {showSidebar &&""
+      {showSidebar && ""
       // <Row className="mb-3 justify-content-center">
       //   <Col md={6} className="text-end">
       //     <Form>
