@@ -314,30 +314,6 @@ const SentenceObject = () => {
     return ch === highlightChar;
   };
 
-  // render متن با هایلایت کردن کاراکترهایی که تطابق دارند
-  const highlightText = (text) => {
-    // اگر خالی است، فقط متن ساده برگردان
-    // if (!text) return text;
-    const chars = text;
-    return chars;
-    // تبدیل به آرایه کاراکترها (در صورت نیاز می‌توان grapheme clustering پیچیده‌تری اضافه کرد)
-    // const chars = Array.from(text);
-    // return chars;
-      // const should = charMatches(ch);
-      // if (should) {
-      //   return (
-      //     <span
-      //       key={idx}
-      //       style={{ color: "red", fontWeight: "700" }}
-      //       aria-label={`highlight-${ch}`}
-      //     >
-      //       {ch}
-      //     </span>
-      //   );
-      // }
-      // return <span key={idx}>{ch}</span>;
-    // });
-  };
 
   return (
     <Container className="mt-4" dir="rtl" style={{ minHeight: "700px" }}>
@@ -353,41 +329,6 @@ const SentenceObject = () => {
         </Col>
       </Row>
 
-      {/* input برای تایپ حرف و گزینه حذفِ حرکات */}
-      {showSidebar && ""
-      // <Row className="mb-3 justify-content-center">
-      //   <Col md={6} className="text-end">
-      //     <Form>
-      //       <Form.Group className="d-flex gap-2 align-items-center" controlId="highlightChar">
-      //         <Form.Label className="mb-0">حرف برای هایلایت:</Form.Label>
-      //         <Form.Control
-      //           style={{ width: "120px", display: "inline-block" }}
-      //           value={highlightChar}
-      //           onChange={(e) => {
-      //             // فقط یک کاراکتر بگیریم (در صورت چسبیدن چند، اولین کاراکتر)
-      //             const val = e.target.value;
-      //             setHighlightChar(val.slice(0, 1));
-      //           }}
-      //           placeholder="یک حرف بنویس"
-      //         /> 
-      //         {/* <Form.Check
-      //           type="checkbox"
-      //           label="حذف حرکات"
-      //           checked={stripDiacritics}
-      //           onChange={(e) => setStripDiacritics(e.target.checked)}
-      //         /> */}
-      //         <Button
-      //           variant="outline-secondary"
-      //           size="sm"
-      //           onClick={() => setHighlightChar("")}
-      //         >
-      //           پاک کن
-      //         </Button>
-      //       </Form.Group>
-      //     </Form>
-      //   </Col>
-      // </Row>
-      }
 
       <Row>
         {showSidebar && (
@@ -436,8 +377,6 @@ const SentenceObject = () => {
                   className="py-5 mx-4 rounded text-center"
                   style={{ backgroundColor: "rgba(135, 187, 239, 0.7)" }}
                 >
-                  {/* sentence را با هایلایت رندر می‌کنیم */}
-                  {/* {highlightText(slide.sentence)} */}
                   {slide.sentence}
                 </h1>
               </Carousel.Item>
@@ -455,8 +394,6 @@ const SentenceObject = () => {
                     onClick={() => setSelectedWord(word)}
                   >
                     <h3 style={{ margin: 0 }}>
-                      {/* واژه را هم با هایلایت رندر می‌کنیم */}
-                      {/* {highlightText(word.text)} */}
                       {word.text}
                     </h3>
                   </Button>
