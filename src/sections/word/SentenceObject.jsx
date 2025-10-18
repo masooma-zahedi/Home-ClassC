@@ -322,18 +322,18 @@ const SentenceObject = () => {
     // تبدیل به آرایه کاراکترها (در صورت نیاز می‌توان grapheme clustering پیچیده‌تری اضافه کرد)
     const chars = Array.from(text);
     return chars.map((ch, idx) => {
-      const should = charMatches(ch);
-      if (should) {
-        return (
-          <span
-            key={idx}
-            style={{ color: "red", fontWeight: "700" }}
-            aria-label={`highlight-${ch}`}
-          >
-            {ch}
-          </span>
-        );
-      }
+      // const should = charMatches(ch);
+      // if (should) {
+      //   return (
+      //     <span
+      //       key={idx}
+      //       style={{ color: "red", fontWeight: "700" }}
+      //       aria-label={`highlight-${ch}`}
+      //     >
+      //       {ch}
+      //     </span>
+      //   );
+      // }
       return <span key={idx}>{ch}</span>;
     });
   };
