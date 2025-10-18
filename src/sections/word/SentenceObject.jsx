@@ -321,7 +321,7 @@ const SentenceObject = () => {
 
     // تبدیل به آرایه کاراکترها (در صورت نیاز می‌توان grapheme clustering پیچیده‌تری اضافه کرد)
     const chars = Array.from(text);
-    return chars.map((ch, idx) => {
+    return chars;
       // const should = charMatches(ch);
       // if (should) {
       //   return (
@@ -334,8 +334,8 @@ const SentenceObject = () => {
       //     </span>
       //   );
       // }
-      return <span key={idx}>{ch}</span>;
-    });
+      // return <span key={idx}>{ch}</span>;
+    // });
   };
 
   return (
