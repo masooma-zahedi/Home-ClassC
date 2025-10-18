@@ -317,11 +317,12 @@ const SentenceObject = () => {
   // render متن با هایلایت کردن کاراکترهایی که تطابق دارند
   const highlightText = (text) => {
     // اگر خالی است، فقط متن ساده برگردان
-    if (!text) return text;
-
-    // تبدیل به آرایه کاراکترها (در صورت نیاز می‌توان grapheme clustering پیچیده‌تری اضافه کرد)
-    const chars = Array.from(text);
+    // if (!text) return text;
+    const chars = text;
     return chars;
+    // تبدیل به آرایه کاراکترها (در صورت نیاز می‌توان grapheme clustering پیچیده‌تری اضافه کرد)
+    // const chars = Array.from(text);
+    // return chars;
       // const should = charMatches(ch);
       // if (should) {
       //   return (
