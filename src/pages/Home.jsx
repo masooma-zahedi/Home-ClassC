@@ -9,7 +9,7 @@ import VideoCard from "../sections/alphabet/VideoCard";
 export default function Home() {
   return (<>
   <div >
-    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها جملات زیر را تمرین کنند و از روی 7 جمله جواب درست آن بنویسند.  </div>
+    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها فیلم زیر را ببینند و جملات فارسی آن را بخوانند. و از روی 6 جمله آن بنویسند یا از روی کلمات حشرات با معنی بنویسند.  </div>
     {/* <SentenceObject/> */}
     {/* <ObjectSentenceGame/> */}
     <VideoCard
