@@ -9,17 +9,17 @@ import VideoCard from "../sections/alphabet/VideoCard";
 export default function Home() {
   return (<>
   <div >
-    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها فیلم زیر را ببینند و جملات فارسی آن را بخوانند. و از روی 6 جمله آن بنویسند یا از روی کلمات حشرات با معنی بنویسند.  </div>
+    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها از روی داستان بخوانند و تا بالای عکس بنویسند.  </div>
     {/* <SentenceObject/> */}
     {/* <ObjectSentenceGame/> */}
-    <VideoCard
+    {/* <VideoCard
       title="قصه کوتاه امروز"
       description="متن فارسی داستان زیر را بخوانید."
       videoFileName={`${process.env.PUBLIC_URL}/video/chick.mp4`}  // فقط اسم فایل ویدیوی mp4
-    />
+    /> */}
 
-    <SpellingGame/>
-    {/* <StoryPage3 groupKey="alefba" wantedTitle="رِسـتوران" /> */}
+    {/* <SpellingGame/> */}
+    <StoryPage3 groupKey="alefba" wantedTitle="لِیلا وَ دِرَخت جادویی" />
     {/* <WordGameWithCategories initialCategory="وسایل مدرسه" /> */}
   </div>
 
