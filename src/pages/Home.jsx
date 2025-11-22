@@ -9,7 +9,7 @@ import VideoCard from "../sections/alphabet/VideoCard";
 export default function Home() {
   return (<>
   <div >
-    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها از روی داستان بخوانند و تا بالای عکس بنویسند.  </div>
+    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها از روی داستان بخوانند و تا بالای عکس بنویسند. اسامی وسایل خانه را هم یاد بگیرند.  </div>
     {/* <SentenceObject/> */}
     {/* <ObjectSentenceGame/> */}
     {/* <VideoCard
@@ -18,8 +18,8 @@ export default function Home() {
       videoFileName={`${process.env.PUBLIC_URL}/video/chick.mp4`}  // فقط اسم فایل ویدیوی mp4
     /> */}
 
-    {/* <SpellingGame/> */}
-    <StoryPage3 groupKey="alefba" wantedTitle="لِیلا وَ دِرَخت جادویی" />
+    <StoryPage3 groupKey="alefba" wantedTitle="تابِستانِ گَرمِ مَن" />
+    <SpellingGame/>
     {/* <WordGameWithCategories initialCategory="وسایل مدرسه" /> */}
   </div>
 
