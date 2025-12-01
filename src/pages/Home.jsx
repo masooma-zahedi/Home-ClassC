@@ -5,13 +5,15 @@ import SpellingGame from "../sections/alphabet/SpellingGame";
 import SentenceObject from "../sections/word/SentenceObject";
 import ObjectSentenceGame from "../sections/alphabet/ObjectSentenceGame";
 import VideoCard from "../sections/alphabet/VideoCard";
+import DragDropQuiz from "../sections/word/DragDropQuiz";
 
 export default function Home() {
   return (<>
   <div >
-    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها از روی داستان بخوانند و تا بالای عکس بنویسند. اسامی وسایل خانه را هم یاد بگیرند.  </div>
+    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها فعالیت زیر را انجام دهند و از روی 6 جمله آن بنویسند.  </div>
     {/* <SentenceObject/> */}
     {/* <ObjectSentenceGame/> */}
+    <DragDropQuiz/>
     {/* <VideoCard
       title="قصه کوتاه امروز"
       description="متن فارسی داستان زیر را بخوانید."
