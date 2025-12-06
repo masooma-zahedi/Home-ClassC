@@ -6,21 +6,23 @@ import SentenceObject from "../sections/word/SentenceObject";
 import ObjectSentenceGame from "../sections/alphabet/ObjectSentenceGame";
 import VideoCard from "../sections/alphabet/VideoCard";
 import DragDropQuiz from "../sections/word/DragDropQuiz";
+import DragWriteBoxWithGuides from "../sections/alphabet/DragWriteBoxWithGuides ";
 
 export default function Home() {
   return (<>
   <div >
-    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها فعالیت زیر را انجام دهند و از روی 6 جمله آن بنویسند.  </div>
+    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها داستان زیر را بخوانند و تا بالای عکس بنویسند.  </div>
     {/* <SentenceObject/> */}
     {/* <ObjectSentenceGame/> */}
-    <DragDropQuiz/>
+    {/* <DragDropQuiz/> */}
+    <StoryPage3 groupKey="alefba" wantedTitle="بازی در بَرف" />
+    <DragWriteBoxWithGuides />
     {/* <VideoCard
       title="قصه کوتاه امروز"
       description="متن فارسی داستان زیر را بخوانید."
       videoFileName={`${process.env.PUBLIC_URL}/video/chick.mp4`}  // فقط اسم فایل ویدیوی mp4
     /> */}
 
-    <StoryPage3 groupKey="alefba" wantedTitle="تابِستانِ گَرمِ مَن" />
     <SpellingGame/>
     {/* <WordGameWithCategories initialCategory="وسایل مدرسه" /> */}
   </div>
