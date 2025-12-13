@@ -11,17 +11,18 @@ import DragWriteBoxWithGuides from "../sections/alphabet/DragWriteBoxWithGuides 
 export default function Home() {
   return (<>
   <div >
-    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها داستان زیر را بخوانند و تا بالای عکس بنویسند.  </div>
+    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها فارسی داستان زیر را بخوانند و از روی 6 جمله آن بنویسند.  </div>
+      <VideoCard
+        title="قصه کوتاه امروز"
+        description="متن فارسی داستان زیر را بخوانید."
+        videoFileName={`${process.env.PUBLIC_URL}/video/anty-1.mp4`}  // فقط اسم فایل ویدیوی mp4
+      />
+
     {/* <SentenceObject/> */}
     {/* <ObjectSentenceGame/> */}
     {/* <DragDropQuiz/> */}
-    <StoryPage3 groupKey="alefba" wantedTitle="بازی در بَرف" />
+    {/* <StoryPage3 groupKey="alefba" wantedTitle="بازی در بَرف" /> */}
     <DragWriteBoxWithGuides />
-    {/* <VideoCard
-      title="قصه کوتاه امروز"
-      description="متن فارسی داستان زیر را بخوانید."
-      videoFileName={`${process.env.PUBLIC_URL}/video/chick.mp4`}  // فقط اسم فایل ویدیوی mp4
-    /> */}
 
     <SpellingGame/>
     {/* <WordGameWithCategories initialCategory="وسایل مدرسه" /> */}
