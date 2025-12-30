@@ -12,19 +12,19 @@ import SentenceBuilder from "../sections/word/SentenceBuilder";
 export default function Home() {
   return (<>
   <div >
-    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها با توجه به متن انگلیسی ، کلمات بهم ریخته را مرتب کنند و از روی 6 جمله صحیح بنویسند.  </div>
+    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها داستان زیر را بخوانند و تا بالای عکس بنویسند و همین طور فعالیت زیر را تمرین کنند و با کلمات آن آشنا شوند.  </div>
       {/* <VideoCard
         title="قصه کوتاه امروز"
         description="متن فارسی داستان زیر را بخوانید."
         videoFileName={`${process.env.PUBLIC_URL}/video/anty-1.mp4`}  // فقط اسم فایل ویدیوی mp4
       /> */}
-      <SentenceBuilder/>
+      {/* <SentenceBuilder/> */}
 
     {/* <SentenceObject/> */}
-    {/* <ObjectSentenceGame/> */}
+    <StoryPage3 groupKey="alefba" wantedTitle="گُربه وَ باد" />
+    <ObjectSentenceGame/>
     {/* <DragDropQuiz/> */}
-    {/* <StoryPage3 groupKey="alefba" wantedTitle="بازی در بَرف" /> */}
-    <DragWriteBoxWithGuides />
+    {/* <DragWriteBoxWithGuides /> */}
 
     {/* <SpellingGame/> */}
     {/* <WordGameWithCategories initialCategory="وسایل مدرسه" /> */}
