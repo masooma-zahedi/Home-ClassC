@@ -477,6 +477,149 @@ const action4 = [
   }
 ];
 
+export const natureQuestions = [
+  {
+    sentence: 'در آسمان ___ می‌تابَد.',
+    correctWord: 'خورشید',
+    meaning: 'sun',
+    options: ['ماه', 'خورشید', 'اَبَر'],
+    image: 'https://t4.ftcdn.net/jpg/14/91/61/87/360_F_1491618742_zdlKsCsqo2hn4r4hPDbdJzX1m0OSx5uj.jpg'
+  },
+  {
+    sentence: 'در فَصلِ بَهار، ___ باز می‌شَوَند.',
+    correctWord: 'گُل‌ها',
+    meaning: 'flowers',
+    options: ['دِرَختان', 'بَرف‌ها', 'گُل‌ها'],
+    image: 'https://ecogardener.com/cdn/shop/articles/Best_Spring_Flowers_For_Your_Garden-min_c03d5cc8-f5d2-4455-a2d5-c4620051e200.jpg?v=1764554210'
+  },
+  {
+    sentence: 'ما در ___ قَدَم می‌زَنیم.',
+    correctWord: 'جَنگَل',
+    meaning: 'forest',
+    options: ['خانه', 'جَنگَل', 'مَدرَسه'],
+    image: 'https://t3.ftcdn.net/jpg/02/49/44/26/360_F_249442668_03OK18MUC4GTg8nQFR1tGsuihbaCZOAP.jpg'
+  },
+  {
+    sentence: '___ از آسمان می‌بارَد.',
+    correctWord: 'باران',
+    meaning: 'rain',
+    options: ['خورشید', 'باد', 'باران'],
+    image: 'https://t4.ftcdn.net/jpg/08/95/30/45/360_F_895304582_2b3rCIKvZzbdoIeZX8O8nrtRY9qhd3aq.jpg'
+  },
+  {
+    sentence: 'در کِنارِ رودخانه، ___ دیده می‌شود.',
+    correctWord: 'ماهی',
+    meaning: 'fish',
+    options: ['ماهی', 'دِرَخت', 'اَبَر'],
+    image: 'https://static.vecteezy.com/system/resources/thumbnails/000/432/373/small/v9jq_42iz_160601.jpg'
+  },
+  {
+    sentence: 'در پاییز، بَرگ‌ها از ___ می‌اُفتَند.',
+    correctWord: 'دِرَخت',
+    meaning: 'tree',
+    options: ['اَبَر', 'دِرَخت', 'زَمین'],
+    image: 'https://media.istockphoto.com/id/487775012/vector/autumn-tree.jpg?s=612x612&w=0&k=20&c=4kK3CXtjgrw6OqzGCw-r-iFFRakyszt28MN8r_9FQTE='
+  },
+  {
+    sentence: 'در آسمانِ شَب، ___ می‌دَرَخشَند.',
+    correctWord: 'سِتاره‌ها',
+    meaning: 'stars',
+    options: ['دِرَخت‌ها', 'اَبَرها', 'سِتاره‌ها'],
+    image: 'https://www.shutterstock.com/shutterstock/videos/16739053/thumb/11.jpg?ip=x480'
+  },
+  {
+    sentence: '___ در کوه‌ها زِندِگی می‌کند.',
+    correctWord: 'بُزکوهی',
+    meaning: 'mountain goat',
+    options: ['ماهی', 'بُزکوهی', 'مُرغ'],
+    image: 'https://media.craiyon.com/2025-09-24/fCA5BEhZS26YzgTmG4suZQ.webp'
+  },
+  {
+    sentence: 'در صَحر‌ا، شِن‌ها بِسیار ___ هستند.',
+    correctWord: 'داغ',
+    meaning: 'hot',
+    options: ['سَرد', 'داغ', 'نَرم'],
+    image: 'https://media.sciencephoto.com/c0/48/59/92/c0485992-800px-wm.jpg'
+  },
+  {
+    sentence: '___ روی گُل نِشَستِه است.',
+    correctWord: 'پَروانه',
+    meaning: 'butterfly',
+    options: ['پَرَنده', 'پَروانه', 'زَنبور'],
+    image: 'https://i.pinimg.com/736x/d3/38/58/d33858854d12408eb433fba5ed2914c9.jpg'
+  },
+  {
+    sentence: 'در جَنگَل صِدای ___ شِنیده می‌شود.',
+    correctWord: 'پَرَنده‌ها',
+    meaning: 'birds',
+    options: ['دِرَخت‌ها', 'پَرَنده‌ها', 'اَبَرها'],
+    image: 'https://www.shutterstock.com/image-vector/vector-illustration-colorful-birds-sitting-600nw-2349815483.jpg'
+  },
+  {
+    sentence: 'در زِمِستان، زَمین پُر از ___ می‌شود.',
+    correctWord: 'بَرف',
+    meaning: 'snow',
+    options: ['بَرف', 'باران', 'گُل'],
+    image: 'https://us.123rf.com/450wm/natalyka/natalyka2208/natalyka220800001/189736935-winter-city-park-with-bench-lantern-trees-snowman-and-silhouettes-of-houses-vector-illustration.jpg?ver=6'
+  },
+  {
+    sentence: '___ در باغ می‌وَزَد.',
+    correctWord: 'باد',
+    meaning: 'wind',
+    options: ['خورشید', 'اَبر', 'باد'],
+    image: 'https://static.vecteezy.com/system/resources/previews/018/892/011/non_2x/trees-during-the-windstorm-green-trees-with-falling-leaves-in-the-park-at-blowing-wind-landscape-cartoon-illustration-vector.jpg'
+  },
+  {
+    sentence: 'دَریا پُر از ___ است.',
+    correctWord: 'آب',
+    meaning: 'water',
+    options: ['بَرگ', 'آب', 'سَنگ'],
+    image: 'https://www.shutterstock.com/image-vector/vector-calm-sea-ocean-surface-260nw-2320305515.jpg'
+  },
+  {
+    sentence: 'در آسمان بَعد از باران، ___ دیده می‌شود.',
+    correctWord: 'رَنگین‌کَمان',
+    meaning: 'rainbow',
+    options: ['رَنگین‌کَمان', 'خورشید', 'سِتاره'],
+    image: 'https://media.istockphoto.com/id/474563986/vector/summer-rainbow.jpg?s=612x612&w=0&k=20&c=PlRwiNfYVjzZ6tMyPCg_hI9DmTqpIC5LXxcQ_g4e7rY='
+  },
+  {
+    sentence: 'در کِنارِ دَریا ___ دیده می‌شود.',
+    correctWord: 'شِن',
+    meaning: 'sand',
+    options: ['ماهی', 'شِن', 'دِرَخت'],
+    image: 'https://thumbs.dreamstime.com/b/footprints-beach-sand-cartoon-vector-image-creative-designs-generated-using-ai-tool-394460736.jpg'
+  },
+  {
+    sentence: '___ از کوه پایین می‌آیَد.',
+    correctWord: 'رودخانه',
+    meaning: 'river',
+    options: ['رودخانه', 'اَبَر', 'دِرَخت'],
+    image: 'https://cdn5.vectorstock.com/i/1000x1000/75/94/cartoon-mountain-river-waterfall-wild-vector-48417594.jpg'
+  },
+  {
+    sentence: 'در باغ، زَنبورها روی ___ می‌نِشینَند.',
+    correctWord: 'گُل',
+    meaning: 'flower',
+    options: ['بَرگ', 'گُل', 'دِرَخت'],
+    image: 'https://img.freepik.com/free-vector/watercolor-spring-illustration_23-2149283728.jpg?semt=ais_hybrid&w=740&q=80'
+  },
+  {
+    sentence: 'در کوه، هَوای ___ وُجود دارد.',
+    correctWord: 'سَرد',
+    meaning: 'cold',
+    options: ['گَرم', 'سَرد', 'مَرطوب'],
+    image: 'https://media.istockphoto.com/id/1212924497/vector/winter-day-landscape-with-mountains.jpg?s=612x612&w=0&k=20&c=zvz6UlGfFzO5xWiI7bH7llLCajB6unBip9_irCbAZdo='
+  },
+  {
+    sentence: 'خورشید در ___ غروب می‌کند.',
+    correctWord: 'اُفُق',
+    meaning: 'horizon',
+    options: ['اُفُق', 'کوه', 'جَنگَل'],
+    image: 'https://thumbs.dreamstime.com/b/cartoon-anime-sunset-sky-sea-landscape-background-vector-setting-sun-below-ocean-water-horizon-pink-clouds-manga-comic-408683256.jpg'
+  }
+];
+
 
 // توجه: فرض شده questions1, questions2, questions3 در همین فایل یا در بالاتر وارد شده‌اند.
 // اگر در جای دیگری هستند، آنها را ایمپورت کنید یا به صورت props ارسال کنید.
