@@ -12,13 +12,15 @@ import SentenceBuilder from "../sections/word/SentenceBuilder";
 export default function Home() {
   return (<>
   <div >
-    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها داستان زیر را بخوانند و تا بالای عکس بنویسند.کلمات مربوط به زمستان را یاد بگیرند.  </div>
+    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها جملات زیر را مرتب کنند و از روی 6 جمله درست آن بنویسند..  </div>
       {/* <VideoCard
         title="قصه کوتاه امروز"
         description="متن فارسی داستان زیر را بخوانید."
         videoFileName={`${process.env.PUBLIC_URL}/video/anty-1.mp4`}  // فقط اسم فایل ویدیوی mp4
       /> */}
-      {/* <SentenceBuilder/> */}
+    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-warning rounded">جملات کمک بهتر از خنده هست.  </div>
+
+      <SentenceBuilder/>
 
     {/* <SentenceObject/> */}
     <StoryPage3 groupKey="alefba" wantedTitle="کُمَک بِهتَر اَز خَندَه‌س" />
@@ -27,7 +29,7 @@ export default function Home() {
     {/* <DragWriteBoxWithGuides /> */}
 
     {/* <SpellingGame/> */}
-    <WordGameWithCategories initialCategory="زمستان" />
+    {/* <WordGameWithCategories initialCategory="زمستان" /> */}
   </div>
 
   </>)
