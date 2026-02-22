@@ -12,7 +12,7 @@ import SentenceBuilder from "../sections/word/SentenceBuilder";
 export default function Home() {
   return (<>
   <div >
-    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها جملات زیر را مرتب کنند و از روی 6 جمله آن بنویسند .  </div>
+    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها داستان زیر را بخوانند و از روی 4 جمله آن بنویسند .  </div>
       {/* <VideoCard
         title="قصه کوتاه امروز"
         description="متن فارسی داستان زیر را بخوانید."
@@ -20,10 +20,10 @@ export default function Home() {
       /> */}
     {/* <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-warning rounded">جملات کمک بهتر از خنده هست.  </div> */}
 
-      <SentenceBuilder/>
+      {/* <SentenceBuilder/> */}
 
-    <SentenceObject/>
-    {/* <StoryPage3 groupKey="alefba" wantedTitle="قُفل و کلید" /> */}
+    {/* <SentenceObject/> */}
+    <StoryPage3 groupKey="alefba" wantedTitle="کِشاوَرزِ مِهرَبان" />
     {/* <ObjectSentenceGame/> */}
     {/* <DragDropQuiz/> */}
     {/* <DragWriteBoxWithGuides /> */}
