@@ -23,7 +23,7 @@ export default function Home() {
       {/* <SentenceBuilder/> */}
 
     {/* <SentenceObject/> */}
-    <StoryPage3 groupKey="alefba" wantedTitle="کِشاوَرزِ مِهرَبان" />
+    <StoryPage3 groupKey="alefba" wantedTitle="ظَرفِ ظَریفِ بَهار" />
     {/* <ObjectSentenceGame/> */}
     {/* <DragDropQuiz/> */}
     {/* <DragWriteBoxWithGuides /> */}
