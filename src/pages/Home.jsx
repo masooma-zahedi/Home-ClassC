@@ -8,11 +8,12 @@ import VideoCard from "../sections/alphabet/VideoCard";
 import DragDropQuiz from "../sections/word/DragDropQuiz";
 import DragWriteBoxWithGuides from "../sections/alphabet/DragWriteBoxWithGuides ";
 import SentenceBuilder from "../sections/word/SentenceBuilder";
+import TypingImageText from "../sections/word/TypingImageText";
 
 export default function Home() {
   return (<>
   <div >
-    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها داستان زیر را بخوانند و از روی 5 جمله آن بنویسند .  </div>
+    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها جملات زیر را بخوانند و از روی 5 جمله آن بنویسند .  </div>
       {/* <VideoCard
         title="قصه کوتاه امروز"
         description="متن فارسی داستان زیر را بخوانید."
@@ -21,6 +22,7 @@ export default function Home() {
     {/* <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-warning rounded">جملات کمک بهتر از خنده هست.  </div> */}
 
       {/* <SentenceBuilder/> */}
+      <TypingImageText/>
 
     {/* <SentenceObject/> */}
     <StoryPage3 groupKey="kalemat" wantedTitle="گربه‌یِ بازیگوش" />
