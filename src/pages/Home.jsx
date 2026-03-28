@@ -22,10 +22,10 @@ export default function Home() {
     {/* <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-warning rounded">جملات کمک بهتر از خنده هست.  </div> */}
 
       {/* <SentenceBuilder/> */}
-      <TypingImageText/>
+      {/* <TypingImageText/> */}
 
     {/* <SentenceObject/> */}
-    <StoryPage3 groupKey="kalemat" wantedTitle="گربه‌یِ بازیگوش" />
+    <StoryPage3 groupKey="kalemat" wantedTitle="مَریَم و آشپَزی" />
     {/* <ObjectSentenceGame/> */}
     {/* <DragDropQuiz/> */}
     {/* <DragWriteBoxWithGuides /> */}
