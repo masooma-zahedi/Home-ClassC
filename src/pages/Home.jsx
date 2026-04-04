@@ -13,7 +13,7 @@ import TypingImageText from "../sections/word/TypingImageText";
 export default function Home() {
   return (<>
   <div >
-    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها جملات زیر را بخوانند و از روی 5 جمله آن بنویسند .  </div>
+    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها داستان زیر را بخوانند و از روی 5 جمله آن بنویسند .  </div>
       {/* <VideoCard
         title="قصه کوتاه امروز"
         description="متن فارسی داستان زیر را بخوانید."
@@ -25,7 +25,7 @@ export default function Home() {
       {/* <TypingImageText/> */}
 
     {/* <SentenceObject/> */}
-    <StoryPage3 groupKey="kalemat" wantedTitle="مَریَم و آشپَزی" />
+    <StoryPage3 groupKey="kalemat" wantedTitle="عَلی وَ سِتاره‌ها" />
     {/* <ObjectSentenceGame/> */}
     {/* <DragDropQuiz/> */}
     {/* <DragWriteBoxWithGuides /> */}
