@@ -25,8 +25,8 @@ export default function Home() {
       {/* <TypingImageText/> */}
 
     {/* <SentenceObject/> */}
-    {/* <StoryPage3 groupKey="kalemat" wantedTitle="عَلی وَ سِتاره‌ها" /> */}
-    <StoryPage3 groupKey="alefba" wantedTitle="صادِق و دَریا" />
+    <StoryPage3 groupKey="kalemat" wantedTitle="فیلِ مِهرَبان" />
+    {/* <StoryPage3 groupKey="alefba" wantedTitle="صادِق و دَریا" /> */}
     {/* <ObjectSentenceGame/> */}
     {/* <DragDropQuiz/> */}
     {/* <DragWriteBoxWithGuides /> */}
