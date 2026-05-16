@@ -26,7 +26,7 @@ export default function Home() {
 
     {/* <SentenceObject/> */}
     {/* <StoryPage3 groupKey="kalemat" wantedTitle="فیلِ مِهرَبان" /> */}
-    <StoryPage3 groupKey="alefba" wantedTitle="پیکو مِهرَبان" />
+    <StoryPage3 groupKey="alefba" wantedTitle="کُمَک بِهتَر اَز خَندَه‌س" />
     {/* <ObjectSentenceGame/> */}
     {/* <DragDropQuiz/> */}
     {/* <DragWriteBoxWithGuides /> */}
